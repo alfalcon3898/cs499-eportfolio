@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Computer Science Capstone ePortfolio — ShiftFlow, a Python employee scheduling application.">
+  <title>CS 499 ePortfolio | Software Engineering & ShiftFlow</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#home"><span class="brand-mark">AF</span><span>CS 499 <strong>ePortfolio</strong></span></a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a><a href="#enhancements">Enhancements</a><a href="#review">Code review</a><a href="#artifacts">Artifacts</a><a href="#contact">Links</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow"><span class="pulse"></span> SOUTHERN NEW HAMPSHIRE UNIVERSITY · CS 499</p>
+          <h1>Building software for <em>real-world</em> problems.</h1>
+          <p class="lead">A computer science capstone portfolio documenting the evolution of <strong>ShiftFlow</strong>—from a procedural employee-management script to an object-oriented scheduling application with algorithms and SQLite persistence.</p>
+          <div class="actions"><a class="button primary" href="#enhancements">Explore the enhancements <span aria-hidden="true">↗</span></a><a class="button secondary" href="https://github.com/alfalcon3898/shiftflow/tree/final-integration" target="_blank" rel="noopener noreferrer">View source on GitHub ↗</a></div>
+          <div class="hero-meta"><span>Python</span><span>Object-oriented design</span><span>SQLite</span><span>pytest</span></div>
+        </div>
+        <div class="terminal" aria-label="Illustrative ShiftFlow terminal example">
+          <div class="terminal-top"><span class="dots"><i></i><i></i><i></i></span><span>shiftflow.py</span><span>● LOCAL CLI</span></div>
+          <div class="terminal-body"><p class="term-muted">$ python shiftflow.py</p><p class="term-accent">--- ShiftFlow V1 ---</p><p>1. Add Employee</p><p>5. Update Employee Availability</p><p>12. Create Shift</p><p>13. View Schedule</p><p>14. Exit</p><p class="term-muted">Enter your choice: <span class="term-accent">13</span></p><p class="term-muted"># Saved schedules reload from SQLite</p><span class="cursor"></span></div>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="about">
+      <div class="container two-col">
+        <div><p class="eyebrow">01 / INTRODUCTION</p><h2>From experience to engineering.</h2></div>
+        <div class="body-copy"><p>ShiftFlow grew out of firsthand experience managing restaurant teams, where scheduling, availability, and shift coverage can become fragmented across paper and separate systems.</p><p>This portfolio documents three capstone enhancement areas: software design and engineering, algorithms and data structures, and databases. Together, they demonstrate how a practical problem can be approached through modular design, testable rules, and persistent data.</p><p class="note">The full professional self-assessment will be added here before final submission.</p></div>
+      </div>
+    </section>
+    <section class="section section-alt" id="enhancements">
+      <div class="container">
+        <p class="eyebrow">02 / CAPSTONE ENHANCEMENTS</p><h2>Three enhancements. One evolving system.</h2><p class="section-intro">Each enhancement builds on the previous one, improving the reliability, capabilities, and maintainability of ShiftFlow.</p>
+        <div class="cards">
+          <article class="feature"><div class="feature-number">01 <span>SOFTWARE DESIGN & ENGINEERING</span></div><h3>Better structure by design.</h3><p>Refactored procedural code into <code>Employee</code>, <code>Shift</code>, and <code>Schedule</code> classes, emphasizing encapsulation, validation, and maintainable interfaces.</p><div class="chips"><span>OOP</span><span>Validation</span><span>Encapsulation</span></div><a href="#artifacts">Explore artifact details <span aria-hidden="true">↗</span></a></article>
+          <article class="feature"><div class="feature-number">02 <span>ALGORITHMS & DATA STRUCTURES</span></div><h3>Rules that support decisions.</h3><p>Implemented availability and shift-conflict checks, weekly-hour calculations, staffing shortage logic, and employee selection based on remaining target hours and hire dates.</p><div class="chips"><span>Conflict detection</span><span>Scheduling logic</span></div><a href="#artifacts">Explore artifact details <span aria-hidden="true">↗</span></a></article>
+          <article class="feature"><div class="feature-number">03 <span>DATABASES</span></div><h3>Data that survives a restart.</h3><p>Integrated SQLite storage for employees, availability, and shifts. The CLI reconstructs saved schedules on startup without reapplying current availability to existing assignments.</p><div class="chips"><span>SQLite</span><span>Persistence</span><span>Integration</span></div><a href="#artifacts">Explore artifact details <span aria-hidden="true">↗</span></a></article>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="review">
+      <div class="container two-col">
+        <div><p class="eyebrow">03 / CODE REVIEW</p><h2>Explaining the decisions behind the code.</h2></div>
+        <div class="body-copy"><p>The code review introduces the original artifact, its limitations, and the enhancements selected for the capstone.</p><div class="pending"><strong>Code review video</strong><p>Video link pending. Add the final recording URL here before submission.</p></div></div>
+      </div>
+    </section>
+    <section class="section section-alt" id="artifacts">
+      <div class="container">
+        <p class="eyebrow">04 / ARTIFACTS & DOCUMENTATION</p><h2>See the implementation.</h2><p class="section-intro">The enhanced source is available on GitHub. Original artifacts and the three Word-format enhancement narratives will be linked here once uploaded to this repository.</p>
+        <div class="resource-grid">
+          <a class="resource" href="https://github.com/alfalcon3898/shiftflow/tree/final-integration" target="_blank" rel="noopener noreferrer"><span class="resource-icon">⌘</span><span><strong>Enhanced source code</strong><small>ShiftFlow · final-integration branch</small></span><span aria-hidden="true">↗</span></a>
+          <a class="resource" href="https://github.com/alfalcon3898/shiftflow" target="_blank" rel="noopener noreferrer"><span class="resource-icon">↺</span><span><strong>Project repository & history</strong><small>Original development and enhancement work</small></span><span aria-hidden="true">↗</span></a>
+          <div class="resource unavailable"><span class="resource-icon">01</span><span><strong>Enhancement One narrative</strong><small>Word document · awaiting upload</small></span><span>—</span></div>
+          <div class="resource unavailable"><span class="resource-icon">02</span><span><strong>Enhancement Two narrative</strong><small>Word document · awaiting upload</small></span><span>—</span></div>
+          <div class="resource unavailable"><span class="resource-icon">03</span><span><strong>Enhancement Three narrative</strong><small>Word document · awaiting upload</small></span><span>—</span></div>
+          <div class="resource unavailable"><span class="resource-icon">◎</span><span><strong>Original artifact package</strong><small>Awaiting upload and verification</small></span><span>—</span></div>
+        </div>
+      </div>
+    </section>
+    <section class="section closing" id="contact">
+      <div class="container"><p class="eyebrow">05 / WHAT'S NEXT</p><h2>From capstone to product.</h2><p>ShiftFlow's longer-term direction includes employee shift-swap requests, manager approval workflows, and AI-assisted schedule creation. Those features are future goals—not capabilities claimed for the current capstone.</p><div class="actions"><a class="button primary" href="https://github.com/alfalcon3898/shiftflow" target="_blank" rel="noopener noreferrer">ShiftFlow repository ↗</a><a class="button secondary" href="https://github.com/alfalcon3898/cs499-eportfolio" target="_blank" rel="noopener noreferrer">Portfolio source ↗</a></div></div>
+    </section>
+  </main>
+  <footer><div class="container footer-inner"><span>© 2026 · CS 499 ePortfolio</span><span>Built with purpose. Refined through testing.</span></div></footer>
+</body>
+</html>

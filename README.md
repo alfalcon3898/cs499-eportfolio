@@ -3,7 +3,7 @@
 A GitHub Pages portfolio for the Southern New Hampshire University CS 499 Computer Science Capstone.
 
 ## Live site
-Once GitHub Pages is enabled for the main branch, visit:
+Live ePortfolio:
 https://alfalcon3898.github.io/cs499-eportfolio/
 
 ## Featured artifact
@@ -14,12 +14,16 @@ The portfolio covers:
 2. Algorithms & Data Structures (scheduling logic)
 3. Databases (SQLite persistence)
 
-## Before final submission
-- [ ] Add professional self-assessment (replace placeholder in index.html)
-- [ ] Upload three Word enhancement narratives and link them in index.html
-- [ ] Add original and enhanced code artifact packages
-- [ ] Add the code review video link
-- [ ] Verify GitHub Pages is published and all links work
+## Capstone materials
+- [x] Professional self-assessment published on the website
+- [x] Three Word enhancement narratives uploaded and linked
+- [x] Original ShiftFlow artifact ZIP uploaded and linked
+- [x] Enhanced ShiftFlow source linked from the final-integration branch
+- [x] Code review video embedded from Google Drive
+
+## Final checks
+- [ ] Confirm the Google Drive video plays for visitors without sign-in
+- [ ] Verify GitHub Pages links and downloads in a private/incognito window
 - [ ] Check the course rubric and submit the live URL
 
 ## GitHub Pages

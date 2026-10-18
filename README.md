@@ -2,31 +2,40 @@
 
 A GitHub Pages portfolio for the Southern New Hampshire University CS 499 Computer Science Capstone.
 
-## Live site
-Live ePortfolio:
-https://alfalcon3898.github.io/cs499-eportfolio/
+## Live ePortfolio
 
-## Featured artifact
-[ShiftFlow — enhanced source code](https://github.com/alfalcon3898/shiftflow/tree/final-integration)
+**[View my CS 499 ePortfolio](https://alfalcon3898.github.io/cs499-eportfolio/)**
 
-The portfolio covers:
-1. Software Design & Engineering (object-oriented refactor)
-2. Algorithms & Data Structures (scheduling logic)
-3. Databases (SQLite persistence)
+## Featured project: ShiftFlow
+
+An employee scheduling application developed and enhanced with Python, object-oriented design, scheduling algorithms, SQLite persistence, and automated testing.
+
+- [Original ShiftFlow artifact (ZIP)](https://github.com/alfalcon3898/cs499-eportfolio/blob/main/ShiftFlow_Original_Artifact%20%281%29.zip)
+- [Enhanced ShiftFlow source code](https://github.com/alfalcon3898/shiftflow/tree/final-integration)
+- [Code review video (Google Drive)](https://drive.google.com/file/d/18gDEPqMpLVMk_DrhihsT_Sde63mDrp3t/view?usp=sharing)
+
+## Capstone enhancements
+
+1. **Software Design & Engineering:** Object-oriented refactor — [Enhancement One Narrative](https://github.com/alfalcon3898/cs499-eportfolio/blob/main/Enhancement%20One%20Narrative%20Software%20Design%20and%20Engineering%20%281%29.docx)
+2. **Algorithms & Data Structures:** Scheduling logic — [Enhancement Two Narrative](https://github.com/alfalcon3898/cs499-eportfolio/blob/main/enhacement%202.docx)
+3. **Databases:** SQLite persistence — [Enhancement Three Narrative](https://github.com/alfalcon3898/cs499-eportfolio/blob/main/5-2%20Enhancement%20Three%20Narrative%20Database%20%282%29.docx)
+
+The professional self-assessment is published on the [ePortfolio website](https://alfalcon3898.github.io/cs499-eportfolio/#about).
 
 ## Capstone materials
+
 - [x] Professional self-assessment published on the website
 - [x] Three Word enhancement narratives uploaded and linked
 - [x] Original ShiftFlow artifact ZIP uploaded and linked
-- [x] Enhanced ShiftFlow source linked from the final-integration branch
+- [x] Enhanced ShiftFlow source linked from the `final-integration` branch
 - [x] Code review video embedded from Google Drive
 
-## Final checks
+## Final checks before submission
+
 - [ ] Confirm the Google Drive video plays for visitors without sign-in
-- [ ] Verify GitHub Pages links and downloads in a private/incognito window
-- [ ] Check the course rubric and submit the live URL
+- [ ] Verify website links and downloads in a private/incognito window
+- [ ] Compare the portfolio against the course rubric and submit the live URL
 
-## GitHub Pages
-In repository Settings → Pages, choose **Deploy from a branch**, select **main** and **/(root)**, then save.
+## Hosting
 
-The site is static HTML and CSS, with no build step required.
+This portfolio is a static HTML/CSS website published via GitHub Pages from the `main` branch.

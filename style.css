@@ -1,4 +1,4 @@
-: root {
+:root {
   color-scheme: dark;
   --bg: #0b111b;
   --panel: #131d2b;
@@ -30,7 +30,7 @@ a {
   text-decoration: none
 }
 
-a: focus-visible {
+a:focus-visible {
   outline: 3px solid var(--accent);
   outline-offset: 4px
 }
@@ -55,7 +55,7 @@ p {
   z-index: 10
 }
 
-.skip: focus {
+.skip:focus {
   left: 12px
 }
 
@@ -107,7 +107,7 @@ p {
   font-size: .85rem
 }
 
-.nav nav a: hover,.feature>a: hover {
+.nav nav a:hover,.feature>a: hover {
   color: var(--accent)
 }
 
@@ -198,11 +198,11 @@ h3 {
   border-color: var(--accent)
 }
 
-.primary: hover {
+.primary:hover {
   background: #b4f0e8
 }
 
-.secondary: hover {
+.secondary:hover {
   border-color: var(--accent)
 }
 
@@ -252,11 +252,11 @@ h3 {
   background: #de7878
 }
 
-.dots i: nth-child(2) {
+.dots i:nth-child(2) {
   background: #e4c17d
 }
 
-.dots i: nth-child(3) {
+.dots i:nth-child(3) {
   background: #86cda4
 }
 
@@ -397,7 +397,7 @@ h3 {
   gap: 16px
 }
 
-.resource: hover: not(.unavailable) {
+.resource:hover: not(.unavailable) {
   border-color: var(--accent)
 }
 
@@ -413,7 +413,7 @@ h3 {
   font-weight: 750
 }
 
-.resource>span: nth-child(2) {
+.resource>span:nth-child(2) {
   flex: 1
 }
 
@@ -439,7 +439,7 @@ h3 {
   text-align: center
 }
 
-.closing p: not(.eyebrow) {
+.closing p:not(.eyebrow) {
   max-width: 690px;
   color: var(--muted);
   margin: 0 auto

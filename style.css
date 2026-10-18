@@ -107,7 +107,7 @@ p {
   font-size: .85rem
 }
 
-.nav nav a:hover,.feature>a: hover {
+.nav nav a:hover,.feature>a:hover {
   color: var(--accent)
 }
 
@@ -397,7 +397,7 @@ h3 {
   gap: 16px
 }
 
-.resource:hover: not(.unavailable) {
+.resource:hover:not(.unavailable) {
   border-color: var(--accent)
 }
 

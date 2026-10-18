@@ -24,17 +24,11 @@ The professional self-assessment is published on the [ePortfolio website](https:
 
 ## Capstone materials
 
-- [x] Professional self-assessment published on the website
-- [x] Three Word enhancement narratives uploaded and linked
-- [x] Original ShiftFlow artifact ZIP uploaded and linked
-- [x] Enhanced ShiftFlow source linked from the `final-integration` branch
-- [x] Code review video embedded from Google Drive
+The professional self-assessment, three enhancement narratives, original ShiftFlow artifact, enhanced source code, and code review video are available through the links above and the live ePortfolio.
 
-## Final checks before submission
+## Submission
 
-- [ ] Confirm the Google Drive video plays for visitors without sign-in
-- [ ] Verify website links and downloads in a private/incognito window
-- [ ] Compare the portfolio against the course rubric and submit the live URL
+The CS 499 ePortfolio is ready for submission. View the [published website](https://alfalcon3898.github.io/cs499-eportfolio/).
 
 ## Hosting
 

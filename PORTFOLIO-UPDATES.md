@@ -1,24 +1,18 @@
-# Updating the project portfolio
+# Updating your portfolio
 
-Edit `freelancing.html` in this repository, then commit your changes. It uses the existing `style.css`.
+Each card on `freelancing.html` links to its own page in `projects/`:
 
-## Project status
+- `shiftflow.html`
+- `discord-bot.html`
+- `faq-assistant.html`
+- `business-automation.html`
+- `document-processing.html`
+- `advanced-ai-backend.html`
 
-- Planned: not yet built.
-- In progress: actively building; describe only completed behavior as current.
-- Completed: working, tested, documented and ready to demonstrate.
-- Future exploration: optional ideas, not committed deliverables.
+Edit a project's HTML file to update its current progress, milestones, demo evidence and case study. Also update the summary and status on `freelancing.html` when progress changes. Pages share `style.css` in the repository root.
 
-For each project, update its status, current functionality, next milestone and technologies. When available, replace the demo placeholder paragraph with real links to the repository, video, live demo and case study. Do not add empty or `#` links for unavailable demos.
+Statuses: Planned means not yet built; In progress means actively developing; Completed means working, tested and documented; Future exploration means optional future work.
 
-## Freelance profiles
+Replace demo placeholder text with actual screenshots, videos and links when available. Do not present planned skills or outcomes as completed work. Add real Fiverr and Upwork URLs in the Connect section of `freelancing.html` when your profiles are ready.
 
-In the `connect` section, add your real Fiverr and Upwork profile URLs after creating them. State your service scope only when you can deliver it. Keep GitHub and capstone links available.
-
-## Case studies
-
-Describe the problem, your role, what you built, technical decisions, tests, limitations and verified results. Identify independent demos clearly. Obtain permission before displaying client information or testimonials.
-
-## Before publishing an update
-
-Check on a phone and desktop, open each link, confirm project status is accurate, and avoid publishing secrets or private customer data.
+Before committing, check every project link, its back link, and the layout on phone and desktop. Use fictional data in demos and obtain permission before sharing client information or testimonials.
